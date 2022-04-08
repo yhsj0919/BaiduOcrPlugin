@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
               child: Text("测试识别"),
             ),
             onTap: () async {
-              BaiduOCR.recognize(type: BaiduOCR.BANKCARD).then((value) {
+              BaiduOCR.recognize(type: BaiduOCR.IDCARD_NATIVE_MANUAL_FRONT).then((value) {
                 print(value);
               }).catchError((e) {
                 print('出现错误$e');

@@ -106,8 +106,9 @@ class BaiduOCR {
 
   /// 身份证识别
   static const int IDCARD_FRONT = 201; // 正面
+  static const int IDCARD_NATIVE_MANUAL_FRONT = 211; // 正面
   static const int IDCARD_BACK = 202; //相册选择 反面
-  static const int IDCARD_CAMERA = 102; // 身份证拍照
+  static const int IDCARD_NATIVE_MANUAL_BACK = 212; // 反面
 
   static const MethodChannel _channel = MethodChannel('baidu_ocr');
 

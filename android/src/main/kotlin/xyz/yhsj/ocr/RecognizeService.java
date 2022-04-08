@@ -28,6 +28,7 @@ public class RecognizeService {
 
     interface ServiceListener {
         public void onResult(String result);
+        public void onError(OCRError error);
     }
 
     public static void recGeneral(Context ctx, String filePath, final ServiceListener listener) {
@@ -50,7 +51,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -75,7 +76,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -100,7 +101,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -124,7 +125,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -147,7 +148,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -170,7 +171,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -193,7 +194,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -209,7 +210,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -225,7 +226,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -241,7 +242,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -257,7 +258,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -274,7 +275,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -290,7 +291,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -306,7 +307,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -322,7 +323,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -338,7 +339,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -354,7 +355,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -370,7 +371,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -386,7 +387,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -402,7 +403,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -418,7 +419,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -434,7 +435,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -452,7 +453,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -468,7 +469,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -484,7 +485,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -500,7 +501,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -516,7 +517,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -532,7 +533,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -548,7 +549,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -564,7 +565,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -580,7 +581,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -596,7 +597,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
@@ -612,7 +613,7 @@ public class RecognizeService {
 
             @Override
             public void onError(OCRError error) {
-                listener.onResult(error.getMessage());
+                listener.onError(error);
             }
         });
     }
